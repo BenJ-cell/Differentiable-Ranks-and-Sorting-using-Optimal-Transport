@@ -7,7 +7,7 @@ We sort n values by matching them to a probability measure
 supported on any increasing family
 of n target values. 
 Therefore we are considering Optimal Transport (OT) as a relaxation of the basic problem allowing us to extend rank and sort operators using probability measures.
-The auxiliary measure will be supported on m increasing values with m $\ne$ n. 
+The auxiliary measure will be supported on m increasing values with m != n. 
 Introducing regularization with an entropic penalty and applying Sinkhorn iterations will allow to gain back differentiable operators.
 The smooth approximation of rank and sort allow to use the 0/1 loss and the quantile regression loss.
 Using numpy we implemented this version of Differentiable Ranks and Sorting using Optimal Transport by Marco Cuturi Olivier Teboul Jean-Philippe Vert.
